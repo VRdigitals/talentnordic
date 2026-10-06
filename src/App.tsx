@@ -171,7 +171,7 @@ export default function App() {
             </div>
             <div>
               <h4 className="font-bold mb-4">Kontakt</h4>
-              <p className="text-gray-400">info@vrdigitals.net</p>
+              <p className="text-gray-400">info@talentnordic.se</p>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
