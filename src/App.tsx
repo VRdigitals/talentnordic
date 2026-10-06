@@ -12,9 +12,9 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-gray-900">Talen Nordic</h1>
           <div className="flex gap-6">
-            <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
-            <a href="#services" className="text-gray-600 hover:text-gray-900">Services</a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
+            <a href="#about" className="text-gray-600 hover:text-gray-900">Om oss</a>
+            <a href="#services" className="text-gray-600 hover:text-gray-900">Tjänster</a>
+            <a href="#contact" className="text-gray-600 hover:text-gray-900">Kontakt</a>
           </div>
         </div>
       </nav>
@@ -29,7 +29,7 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Modern Recruitment Platform
+              Modern rekryteringsplattform
             </motion.h2>
 
             <motion.p
@@ -38,7 +38,7 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Connect top talent with exceptional opportunities across the Nordic region
+              Vi kopplar samman toppkandidater med spännande möjligheter i hela Sverige
             </motion.p>
 
             <motion.button
@@ -49,7 +49,7 @@ export default function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              Get Started <ArrowRight size={20} />
+              Kom igång <ArrowRight size={20} />
             </motion.button>
           </div>
         </ParallaxSection>
@@ -59,25 +59,25 @@ export default function App() {
       <section id="about" className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <ScrollFadeIn>
-            <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Why Choose Us</h2>
+            <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Varför välja oss</h2>
           </ScrollFadeIn>
 
           <StaggerContainer>
             {[
               {
                 icon: <Users size={40} />,
-                title: "Diverse Talent Pool",
-                description: "Access to thousands of qualified professionals across all sectors"
+                title: "Bred kandidatbank",
+                description: "Tillgång till tusentals kvalificerade yrkespersoner inom alla branscher"
               },
               {
                 icon: <Briefcase size={40} />,
-                title: "Industry Experts",
-                description: "Our team has decades of experience in Nordic recruitment"
+                title: "Branschexperter",
+                description: "Vårt team har årtionden av erfarenhet av rekrytering i Sverige"
               },
               {
                 icon: <Target size={40} />,
-                title: "Precision Matching",
-                description: "Advanced algorithms to match the right candidate with your role"
+                title: "Träffsäker matchning",
+                description: "Avancerade algoritmer som matchar rätt kandidat med rätt roll"
               }
             ].map((feature, i) => (
               <ScrollFadeIn key={i} delay={i * 0.1}>
@@ -96,11 +96,11 @@ export default function App() {
       <section id="services" className="py-20 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <ScrollFadeIn>
-            <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Our Services</h2>
+            <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Våra tjänster</h2>
           </ScrollFadeIn>
 
           <div className="space-y-12">
-            {["Executive Search", "Technical Recruitment", "Permanent Placement", "Contract Solutions"].map((service, i) => (
+            {["Chefsrekrytering", "Teknisk rekrytering", "Fast anställning", "Konsultlösningar"].map((service, i) => (
               <ScrollFadeIn key={i} delay={i * 0.15}>
                 <motion.div
                   className="p-8 bg-white rounded-xl border border-gray-200 cursor-pointer"
@@ -116,7 +116,7 @@ export default function App() {
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900 mb-2">{service}</h3>
                       <p className="text-gray-600">
-                        Tailored solutions for your specific recruitment needs
+                        Skräddarsydda lösningar för just era rekryteringsbehov
                       </p>
                     </div>
                   </div>
@@ -131,16 +131,16 @@ export default function App() {
       <section id="contact" className="py-20 px-6 bg-blue-600">
         <div className="max-w-4xl mx-auto text-center">
           <ScrollFadeIn>
-            <h2 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Hiring?</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Redo att ta er rekrytering till nästa nivå?</h2>
             <p className="text-xl text-blue-100 mb-8">
-              Let's work together to find the perfect talent for your organization
+              Tillsammans hittar vi rätt kompetens för er organisation
             </p>
             <motion.button
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Schedule a Consultation
+              Boka ett möte
             </motion.button>
           </ScrollFadeIn>
         </div>
@@ -152,30 +152,30 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <h4 className="font-bold mb-4">Talen Nordic</h4>
-              <p className="text-gray-400">Modern recruitment for the Nordic region</p>
+              <p className="text-gray-400">Modern rekrytering i hela Sverige</p>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Company</h4>
+              <h4 className="font-bold mb-4">Företaget</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">About</a></li>
-                <li><a href="#" className="hover:text-white">Blog</a></li>
-                <li><a href="#" className="hover:text-white">Careers</a></li>
+                <li><a href="#" className="hover:text-white">Om oss</a></li>
+                <li><a href="#" className="hover:text-white">Blogg</a></li>
+                <li><a href="#" className="hover:text-white">Karriär</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Services</h4>
+              <h4 className="font-bold mb-4">Tjänster</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">For Companies</a></li>
-                <li><a href="#" className="hover:text-white">For Candidates</a></li>
+                <li><a href="#" className="hover:text-white">För företag</a></li>
+                <li><a href="#" className="hover:text-white">För kandidater</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Contact</h4>
+              <h4 className="font-bold mb-4">Kontakt</h4>
               <p className="text-gray-400">info@vrdigitals.net</p>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Talen Nordic. All rights reserved.</p>
+            <p>&copy; 2024 Talen Nordic. Alla rättigheter förbehållna.</p>
           </div>
         </div>
       </footer>
