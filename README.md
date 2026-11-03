@@ -1,4 +1,4 @@
-# Talen Nordic - Modern Recruitment Platform
+# Talent Nordic - Modern Recruitment Platform
 
 A modern recruitment website built with React, TypeScript, Framer Motion, and Tailwind CSS featuring advanced scroll animations.
 

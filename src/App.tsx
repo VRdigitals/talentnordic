@@ -10,7 +10,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-gray-900">Talen Nordic</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Talent Nordic</h1>
           <div className="flex gap-6">
             <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
             <a href="#services" className="text-gray-600 hover:text-gray-900">Services</a>
@@ -151,7 +151,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h4 className="font-bold mb-4">Talen Nordic</h4>
+              <h4 className="font-bold mb-4">Talent Nordic</h4>
               <p className="text-gray-400">Modern recruitment for the Nordic region</p>
             </div>
             <div>
@@ -175,7 +175,7 @@ export default function App() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Talen Nordic. All rights reserved.</p>
+            <p>&copy; 2024 Talent Nordic. All rights reserved.</p>
           </div>
         </div>
       </footer>
